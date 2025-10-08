@@ -18,39 +18,4 @@ Creación propia.
 <img width="817" height="462" alt="image" src="https://github.com/user-attachments/assets/3aed09db-1a30-4a8e-bce8-06c7297b3455" />
 
 
-📦 finanzas-personales/
-│
-├── cmd/
-│   └── main.go                → Punto de entrada del programa
-│
-├── internal/
-│   ├── usuarios/              → Módulo de usuarios
-│   │   ├── usuario.go
-│   │   ├── autenticacion.go
-│   │   └── perfil.go
-│   │
-│   ├── ingresosgastos/        → Módulo de ingresos y gastos
-│   │   ├── ingreso.go
-│   │   ├── gasto.go
-│   │   ├── categoria.go
-│   │   └── service.go         → Lógica de registro y manejo
-│   │
-│   ├── presupuesto/           → Módulo de presupuesto
-│   │   ├── presupuesto.go
-│   │   ├── comparador.go
-│   │   └── service.go
-│   │
-│   └── reportes/              → Módulo de reportes y estadísticas
-│       ├── reportes.go
-│       ├── graficas.go
-│       ├── exportador.go
-│       └── service.go
-│
-├── pkg/                       → Paquetes reutilizables
-│   ├── database/              → Conexión a base de datos SQLite o PostgreSQL
-│   │   └── db.go
-│   └── utils/                 → Funciones auxiliares (formato, validaciones)
-│       └── helpers.go
-│
-├── go.mod                     → Archivo del módulo Go
-└── go.sum
+ <img width="282" height="559" alt="image" src="https://github.com/user-attachments/assets/6cc8f1bb-f4ed-4d17-bfbb-cbb0369c29bc" />
