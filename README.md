@@ -19,3 +19,48 @@ Creación propia.
 
 
  <img width="282" height="559" alt="image" src="https://github.com/user-attachments/assets/6cc8f1bb-f4ed-4d17-bfbb-cbb0369c29bc" />
+internal/usuarios/
+
+Contiene todo lo relacionado con registro, login y perfil.
+
+Los archivos definen estructuras (structs) y funciones (methods) del módulo.
+
+Ejemplo:
+
+usuario.go: estructura Usuario con nombre, correo, contraseña.
+
+autenticacion.go: funciones RegistrarUsuario(), Login().
+
+perfil.go: editar datos del perfil, cambiar contraseña, etc.
+
+ internal/ingresosgastos/
+
+Registra ingresos y gastos, los clasifica y guarda.
+
+ingreso.go y gasto.go definen estructuras con campos: monto, fecha, descripción.
+
+categoria.go maneja categorías (alimentación, transporte, etc.).
+
+service.go contiene la lógica de negocio (por ejemplo, “registrar nuevo gasto”).
+
+ internal/presupuesto/
+
+Crea presupuestos mensuales y los compara con los gastos reales.
+
+presupuesto.go: estructura del presupuesto (límite mensual, categoría, fecha).
+
+comparador.go: analiza si los gastos superan el presupuesto.
+
+service.go: funciones para calcular balances y mostrar advertencias.
+
+internal/reportes/
+
+Genera reportes de ingresos, gastos y presupuestos.
+
+reportes.go: define la estructura de reporte (periodo, totales).
+
+graficas.go: genera los gráficos (barras, pastel, líneas) usando alguna librería compatible con Go.
+
+exportador.go: exporta los reportes a PDF o Excel.
+
+service.go: controla el flujo de generación y exportación.
